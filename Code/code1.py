@@ -17,8 +17,28 @@ def demo_string():
     print 9, strc.find('llo')
 
 
+def demo_buildfuncion():
+    print 1, range(1, 10, 3)
+    print 2, chr(65), ord('a')
+
+
+def demo_control():
+    score = 65
+    if score > 99:
+        print 1, 'A'
+    elif score > 60:
+        print 2, 'B'
+    else:
+        print 3, 'C'
+
+    while score < 100:
+        print score
+        score += 10
+    score = 65
 
 if __name__ == '__main__':
     print ("hello newcoder")
     #comment
     demo_string()
+    demo_buildfuncion()
+    demo_control()
